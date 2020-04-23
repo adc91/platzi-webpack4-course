@@ -1,0 +1,22 @@
+body {
+    font-family: system-ui;
+    font-size: 20px;
+    background-color: #000;
+    color: #FFF;
+    padding: 20px;
+    text-shadow: 1px 1px 1px green;
+    animation: 10000ms latido infinite;
+    text-align: center;
+}
+
+@keyframes latido {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(1.1)
+    }
+}
